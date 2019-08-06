@@ -54,11 +54,11 @@ func newConsulTestRegistry(r *mockRegistry) (*consulRegistry, func()) {
 	go newMockServer(r, l)
 
 	var cr = &consulRegistry{
-		consulConfig: cfg,
-		Address:      []string{cfg.Address},
-		opts:         registry.Options{},
-		register:     make(map[string]uint64),
-		lastChecked:  make(map[string]time.Time),
+		config:      cfg,
+		Address:     []string{cfg.Address},
+		opts:        registry.Options{},
+		register:    make(map[string]uint64),
+		lastChecked: make(map[string]time.Time),
 		queryOptions: &consul.QueryOptions{
 			AllowStale: true,
 		},

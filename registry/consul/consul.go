@@ -20,8 +20,8 @@ type consulRegistry struct {
 	Address []string
 	opts    registry.Options
 
-	client       *consul.Client
-	consulConfig *consul.Config
+	client *consul.Client
+	config *consul.Config
 
 	// connect enabled
 	connect bool
@@ -128,7 +128,7 @@ func configure(c *consulRegistry, opts ...registry.Option) {
 	// set address
 	c.Address = c.opts.Addrs
 
-	c.consulConfig = config
+	c.config = config
 
 	c.Client()
 }
@@ -385,12 +385,12 @@ func (c *consulRegistry) Client() *consul.Client {
 	}
 
 	if len(c.Address) == 0 {
-		tmp, _ := consul.NewClient(c.consulConfig)
+		tmp, _ := consul.NewClient(c.config)
 		return tmp
 	}
 
-	c.consulConfig.Address = c.Address[0]
-	tmpClint, _ := consul.NewClient(c.consulConfig)
+	c.config.Address = c.Address[0]
+	tmpClint, _ := consul.NewClient(c.config)
 	_, err := tmpClint.Agent().Host()
 	if err != nil {
 		c.Address = c.Address[1:]
