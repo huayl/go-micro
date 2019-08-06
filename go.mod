@@ -2,6 +2,7 @@ module github.com/micro/go-micro
 
 go 1.12
 
+
 require (
 	cloud.google.com/go v0.41.0 // indirect
 	github.com/BurntSushi/toml v0.3.1
