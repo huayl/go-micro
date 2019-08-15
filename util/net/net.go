@@ -14,10 +14,9 @@ func HostPort(addr string, port interface{}) string {
 	if strings.Count(addr, ":") > 0 {
 		host = fmt.Sprintf("[%s]", addr)
 	}
-	// when port is blank or 0, host is a queue name
-	if v, ok := port.(string); ok && v == "" {
-		return host
-	} else if v, ok := port.(int); ok && v == 0 && net.ParseIP(host) == nil {
+
+	// when port is blank return host
+	if v, ok := port.(string); ok && len(v) == 0 {
 		return host
 	}
 
