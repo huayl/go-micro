@@ -38,7 +38,7 @@ See [nitro/discussions](https://github.com/asim/nitro/discussions) for any discu
 Go Micro has now been renamed to Nitro. Go Micro moved back to being a personal project. So no longer lives under the organisation github.com/micro. 
 The company is now doubling down on Micro itself and has pulled in the needed interfaces to consolidate a Server, Framework and CLI into one tool. 
 Go Micro is now no longer maintained by a company. Yet it continued to create confusion even as a personal repo. So for that reason, we're renaming 
-to Nitro. Find an archived copy of Go Micro v2 at [microhq/go-micro](https://github/com/microhq/go-micro).
+to Nitro. Find an archived copy of Go Micro v2 at [microhq/go-micro](https://github.com/microhq/go-micro).
 
 ### Why has the license changed from Apache 2.0 to Polyform Noncommercial
 
