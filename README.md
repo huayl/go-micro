@@ -35,24 +35,21 @@ See [nitro/discussions](https://github.com/asim/nitro/discussions) for any discu
 
 ### What happened to Go Micro?
 
-Go Micro has now been renamed to Nitro. Go Micro moved back to being a personal project. So no longer lives under the organisation github.com/micro. 
-The company is now doubling down on Micro itself and has pulled in the needed interfaces to consolidate a Server, Framework and CLI into one tool. 
-Go Micro is now no longer maintained by a company. Yet it continued to create confusion even as a personal repo. So for that reason, we're renaming 
-to Nitro. Find an archived copy of Go Micro v2 at [microhq/go-micro](https://github.com/microhq/go-micro).
+Go Micro has now been renamed to Nitro. Go Micro moved back to being a personal project so no longer lives under the organisation github.com/micro. 
+The company is now doubling down on [Micro](https://github.com/micro/micro) itself and has pulled in the needed interfaces to consolidate a Server, 
+Framework and CLI into one tool. Go Micro is now no longer maintained by a company. Yet it continued to create confusion even as a personal repo. 
+So for that reason, we're renaming to Nitro. Find an archived copy of Go Micro v2 at [microhq/go-micro](https://github.com/microhq/go-micro).
 
 ### Why has the license changed from Apache 2.0 to Polyform Noncommercial
 
 Go Micro was largely a solo maintained effort for the entirety of its lifetime. It has enabled the creation of a company called Micro Services, Inc. which 
 now focuses on [Micro](https://github.com/micro/micro) as a Service and has consolidated any interfaces here into a service library in that project. For 
 the most part, Go Micro was unfunded and in some ways under appreciated. In version 3.0, going back to something of a personal project of more than 6 years 
-I have made the hard decision to relicense as a noncommercial project. For any commercial applications I am looking for [github sponsorship](https://github.com/sponsors/asim) 
-so that I can then use those funds for maintenance and support efforts.
+I have made the hard decision to relicense as a noncommercial project.
 
 ### Where are all the plugins?
 
-The plugins now live in [github.com/asim/nitro-plugins](https://github.com/asim/nitro-plugins). This was to reduce the overall size and scope of Go Micro to purely 
-a set of interfaces and standard library implementations. Go Plugins is Apache 2.0 licensed but relies on Nitro interfaces and so again can only be used in 
-noncommercial setting without a commercial license.
+The plugins now live in [github.com/microhq/go-plugins](https://github.com/microhq/go-plugins). The project is now archived.
 
 ### What's the new direction of Nitro?
 
