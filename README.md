@@ -14,7 +14,7 @@ Nitro is currently undergoing a complete rewrite and is considered unstable for 
 
 ## Features
 
-V3 aka Nitro TBD. Focusing on dapps, IoT, edge and p2p. Potential features include.
+Now focusing on dapps, IoT, edge and p2p. Features will include:
 
 - Lightweight RPC based communications
 - Event broadcasting and notifications
