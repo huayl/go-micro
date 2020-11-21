@@ -10,7 +10,7 @@ Nitro will provide the core requirements for distributed app development, IoT, e
 The **Nitro** model is in-memory defaults with a pluggable architecture. Blaze with pure in-memory development and swap out as needed 
 to go multi-process or multi-host.
 
-Nitro is currently undergoing a complete rewrite and is considered unstable for use.
+Note: Nitro is currently undergoing a complete rewrite and is considered unstable for use.
 
 ## Features
 
